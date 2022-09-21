@@ -28,3 +28,11 @@ public class latihan2 {
 
     }
 }
+
+// Here's what the above main function is doing:
+// 1. First it will ask the user to enter a number.
+// 2. Then it will draw an x star with the width and height of the entered
+// number.
+// 3. For each row and column, it will draw a star if the row equals the column
+// or the sum of the row and column equals the width minus one.
+// 4. If not, it will draw a space.
