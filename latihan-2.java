@@ -14,9 +14,9 @@ public class latihan2 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
 
-                bool eval = i == j || i + j == n - 1;
+                boolean render = i == j || i + j == n - 1;
 
-                if (eval) {
+                if (render) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
